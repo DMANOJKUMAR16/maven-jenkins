@@ -3,11 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/DMANOJKUMAR16/maven-jenkins.git'
-            }
-        }
+        
 
         stage('Build & Test') {
             steps {
